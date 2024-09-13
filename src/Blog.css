@@ -1,0 +1,30 @@
+
+.blog-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    height: 150px;
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(15,15,15,0.26);
+}
+.blog-card h1{
+    font-size: 1.5rem;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.blog-card p{
+    margin-bottom: 0;
+    font-size: 1rem;
+font-weight: 400;
+}
